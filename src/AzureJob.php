@@ -1,5 +1,6 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel;
+
+namespace SenhorMrTroll\AzureServiceBusLaravel;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Queue\Job as JobContract;
@@ -44,7 +45,7 @@ class AzureJob extends Job implements JobContract
      * @param \AzureServiceBus\ServiceBus\Models\BrokeredMessage $job
      * @param string                                          $queue
      *
-     * @return \SenhorMrTroll\AzureServicebusLaravelTopic\AzureJob
+     * @return \SenhorMrTroll\AzureServiceBusLaravelTopic\AzureJob
      */
     public function __construct(Container $container, IServiceBus $azure, BrokeredMessage $job, $queue, string $rawMessage)
     {

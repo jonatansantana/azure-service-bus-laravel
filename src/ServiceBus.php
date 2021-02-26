@@ -1,5 +1,5 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel;
+namespace SenhorMrTroll\AzureServiceBusLaravel;
 
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 use Illuminate\Queue\Queue;
@@ -36,7 +36,7 @@ abstract class ServiceBus extends Queue implements QueueContract
      * @param \AzureServiceBus\ServiceBus\Internal\IServiceBus $azure
      * @param string                                        $default
      *
-     * @return \SenhorMrTroll\AzureServicebusLaravelTopic\AzureQueue
+     * @return \SenhorMrTroll\AzureServiceBusLaravelTopic\AzureQueue
      */
     public function __construct(IServiceBus $azure, $default)
     {

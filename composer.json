@@ -28,14 +28,14 @@
     },
     "autoload": {
         "psr-4": {
-            "SenhorMrTroll\\LaravelAzureServicebus\\": "src/"
+            "SenhorMrTroll\\AzureServiceBusLaravel\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "SenhorMrTroll\\LaravelAzureServicebus\\Support\\ServiceProvider"
+                "SenhorMrTroll\\AzureServiceBusLaravel\\Support\\ServiceProvider"
             ]
         }
     }

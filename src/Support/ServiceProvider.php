@@ -1,7 +1,8 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel\Support;
 
-use SenhorMrTroll\AzureServicebusLaravel\AzureConnector;
+namespace SenhorMrTroll\AzureServiceBusLaravel\Support;
+
+use SenhorMrTroll\AzureServiceBusLaravel\AzureConnector;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

@@ -1,5 +1,6 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel;
+
+namespace SenhorMrTroll\AzureServiceBusLaravel;
 
 class AzureQueue extends ServiceBus
 {

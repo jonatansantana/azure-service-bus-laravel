@@ -1,5 +1,6 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel;
+
+namespace SenhorMrTroll\AzureServiceBusLaravel;
 
 use Illuminate\Queue\Connectors\ConnectorInterface;
 use AzureServiceBus\Common\ServicesBuilder;

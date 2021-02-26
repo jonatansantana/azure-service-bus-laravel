@@ -1,5 +1,6 @@
 <?php
-namespace SenhorMrTroll\AzureServicebusLaravel;
+
+namespace SenhorMrTroll\AzureServiceBusLaravel;
 
 use AzureServiceBus\ServiceBus\Models\BrokeredMessage;
 use AzureServiceBus\ServiceBus\Models\ReceiveMessageOptions;
