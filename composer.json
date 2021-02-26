@@ -24,7 +24,7 @@
         "illuminate/support": ">=8.0.0 <9.0.0",
         "illuminate/encryption": ">=8.0.0 <9.0.0",
         "illuminate/queue": ">=8.0.0 <9.0.0",
-        "jonatansantana/azure-service-bus-laravel": "master"
+        "senhormrtroll/azure-servicebus-laravel": "dev-master"
     },
     "autoload": {
         "psr-4": {
